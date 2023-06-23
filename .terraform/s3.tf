@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "this" {
   acl    = "private"
 
   tags = {
-    Name = "My APP EBS"
+    Name = "Vtex Integration EBS"
   }
 }
 
